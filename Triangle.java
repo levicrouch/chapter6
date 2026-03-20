@@ -7,7 +7,7 @@ import java.util.Scanner;
  * no values: which will set the triangle name to 'Unknown' and the base and height values to 0.0.
  * provided values: which will allow the name, base, and height values to be set upon instantiation of the object.
  * @author Levi Crouch, lcrouch@student.sdccd.edu
- * @version 1.0.0
+ * @version 1.0.1
  * @since 3/17/2026
  */
 public class Triangle {
@@ -24,9 +24,9 @@ public class Triangle {
      */
     public Triangle () {
         
-        setName("Unknown");
-        setBase(0.0);
-        setHeight(0.0);
+        name = "Unknown";
+        base = 0.0;
+        height = 0.0;
     }
 
     /**
@@ -38,9 +38,9 @@ public class Triangle {
      */
     public Triangle (String inName, double inBase, double inHeight) {
         
-        setName(inName);
-        setBase(inBase);
-        setHeight(inHeight);
+        name = inName;
+        base = inBase;
+        height = inHeight;
     }
 
     /**
@@ -74,7 +74,7 @@ public class Triangle {
      */
     public void setName (String newName) {
         
-        this.name = newName;
+        name = newName;
     }
 
     /**
@@ -83,7 +83,7 @@ public class Triangle {
      */
     public void setBase (double newBase) {
         
-        this.base = newBase;
+        base = newBase;
     }
 
     /**
@@ -92,7 +92,7 @@ public class Triangle {
      */
     public void setHeight (double newHeight) {
         
-        this.height = newHeight;
+        height = newHeight;
     }
 
     /**
