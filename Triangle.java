@@ -8,7 +8,7 @@ import java.util.Scanner;
  * provided values: which will allow the name, base, and height values to be set upon instantiation of the object.
  * @author Levi Crouch, lcrouch@student.sdccd.edu
  * @version 1.0.1
- * @since 3/17/2026
+ * @since 3/20/2026
  */
 public class Triangle {
     
